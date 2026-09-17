@@ -234,6 +234,9 @@ enum class GameState {
 
 int main()
 {
+	system("cls"); //НЕТ ПОДДЕРЖКИ ЛИНУКС!
+
+
 	srand(static_cast<unsigned int>(std::time(nullptr)));
 	sf::RenderWindow window(sf::VideoMode(1280, 720), "Snowman adventure");
 	window.setFramerateLimit(120);
